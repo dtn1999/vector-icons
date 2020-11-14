@@ -1,7 +1,7 @@
 {
-  "name": "@expo/vector-icons",
+  "name": "restopres-icons",
   "sideEffects": false,
-  "version": "10.2.1",
+  "version": "1.0.5",
   "description": "Built-in support for popular icon fonts and the tooling to create your own Icon components from your font and glyph map. This is a wrapper around react-native-vector-icons to make it compatible with Expo.",
   "main": "build/IconsLazy.js",
   "module": "build/Icons.js",
@@ -18,25 +18,24 @@
     "prepublishOnly": "expo-module prepublishOnly",
     "expo-module": "expo-module"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/expo/vector-icons.git"
-  },
-  "keywords": [
-    "expo"
-  ],
-  "author": "Brent Vatne",
-  "contributors": [
-    "Evan Bacon <bacon@expo.io> (https://github.com/evanbacon)"
-  ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dtn1999/vector-icons"
+    },
+    "keywords": [
+      "expo"
+    ],
+    "author": "Danyls ngongang",
+    "contributors": [
+      "Danyls Ngongang <ngongand@restopres.io> (https://github.com/dtn1999)"
+    ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/expo/vector-icons/issues"
+    "url": "https://github.com/dtn1999/vector-icons/issues"
   },
   "jest": {
     "preset": "expo-module-scripts"
   },
-  "homepage": "https://expo.github.io/vector-icons",
   "unimodulePeerDependencies": {
     "expo-font": "*"
   },
